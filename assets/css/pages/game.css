@@ -1,0 +1,153 @@
+.tile1,
+.tile2,
+.tile3,
+.tile4,
+.tile5,
+.tile6,
+.tile7,
+.tile8,
+.tile9,
+.tile9,
+.tile10,
+.tile11,
+.tile12,
+.tile13,
+.tile14,
+.tile15,
+.tile16,
+.tile16-1 {
+    display: table-cell;
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+    background: url("../../images/all1.png");
+    cursor: pointer;
+}
+
+.tile1 {
+    background-position: 720px 720px;
+}
+
+.tile2 {
+    background-position: 540px 720px;
+}
+
+.tile3 {
+    background-position: 360px 720px;
+}
+
+.tile4 {
+    background-position: 180px 720px;
+}
+
+.tile5 {
+    background-position: 720px 540px;
+}
+
+.tile6 {
+    background-position: 540px 540px;
+}
+
+.tile7 {
+    background-position: 360px 540px;
+}
+
+.tile8 {
+    background-position: 180px 540px;
+}
+
+.tile9 {
+    background-position: 720px 360px;
+}
+
+.tile10 {
+    background-position: 540px 360px;
+}
+
+.tile11 {
+    background-position: 360px 360px;
+}
+
+.tile12 {
+    background-position: 180px 360px;
+}
+
+.tile13 {
+    background-position: 720px 180px;
+}
+
+.tile14 {
+    background-position: 540px 180px;
+}
+
+.tile15 {
+    background-position: 360px 180px;
+}
+
+.tile16 {
+    background: white;
+    cursor: default;
+}
+
+.tile16-1 {
+    background-position: 180px 180px;
+}
+
+.tle1,
+.tle2,
+.tle3,
+.tle4,
+.tle5,
+.tle6,
+.tle7,
+.tle8,
+.tle9,
+.tle9-1 {
+    display: table-cell;
+    width: 240px;
+    height: 240px;
+    border: 1px solid white;
+    background: url("../../images/all.png");
+    cursor: pointer;
+}
+
+.tle1 {
+    background-position: left top;
+}
+
+.tle2 {
+    background-position: center top;
+}
+
+.tle3 {
+    background-position: right top;
+}
+
+.tle4 {
+    background-position: left center;
+}
+
+.tle5 {
+    background-position: center center;
+}
+
+.tle6 {
+    background-position: right center;
+}
+
+.tle7 {
+    background-position: left bottom;
+}
+
+.tle8 {
+    background-position: center bottom;
+}
+
+.tle9 {
+    background: white;
+    cursor: default;
+}
+
+.tle9-1 {
+    background-position: right bottom;
+}
