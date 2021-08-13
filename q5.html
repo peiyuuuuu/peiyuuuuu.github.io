@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024">
-    <title>錯宗複雜又軒鬧ㄉ解謎我們培你1淇</title>
+    <title>可口麥香瑜培你過七夕</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -39,12 +39,7 @@
                 <div class="sidebar-menu">
                     <ul class="menu">
                         <li class='sidebar-title'>Menu</li>
-                        <li id='home' class="sidebar-item ">
-                            <a href="./qhome.html" class='sidebar-link'>
-                                <i class="bi bi-house"></i>
-                                <span>Home</span>
-                            </a>
-                        </li>
+                        
                         <li id='q1' class="sidebar-item ">
                             <a href="./q1.html" class='sidebar-link'>
                                 <i class="bi bi-x"></i>
@@ -102,18 +97,8 @@
                             </a>
                         </li>
 
-                        <li id='secret' class="sidebar-item  disabled">
-                            <a href="./secret.html" class='sidebar-link'>
-                                <i class="bi bi-camera"></i>
-                                <span>Secret</span>
-                            </a>
-                        </li>
-                        <li id='challenge' class="sidebar-item">
-                            <a href="./challenge.html" class='sidebar-link'>
-                                <i class="bi bi-exclamation"></i>
-                                <span>Challenge</span>
-                            </a>
-                        </li>
+                        
+                        
                         <li class="sidebar-item  ">
                             <a id='reset' class='sidebar-link'>
                                 <i class="bi bi-x"></i>
@@ -135,7 +120,7 @@
             </header>
 
             <div class="page-heading">
-                <h3>Q5、生活營，我只記得很亂</h3>
+                <h3>Q5、最後一場臺大盃 結果輸了就疫情嗚嗚</h3>
             </div>
             <div class="page-content">
                 <section class="row">
@@ -144,22 +129,22 @@
                             <div class="col-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4>欸嘿我沒參加我不知道</h4>
+                                        <h4>前一場叫你不要來看還硬要來ಠ_ಠ</h4>
                                     </div>
                                     <div class="card-body">
 
-                                        <img id='camp' src="./assets/images/shenghuo.jpg" style="width: 100%;object-fit: cover;">
+                                        <img id='camp' src="./assets/images/ntucup.jpeg" style="width: 100%;object-fit: cover;">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4>這有夠難 </h4>
+                                        <h4>麥可教練指導下還是輸了嗚嗚嗚 但至少打完有跟幹幹跟振宇去吃唐老鴨</h4>
                                     </div>
                                     <div class="card-body">
-                                        <p>多少小隊員還留著生活營的文 + 讚數 + 妳是第幾小隊輔</p>
-                                        <input type="text" id="answer" class="form-control round" placeholder="答不出來不怪妳，但...妳得答出來">
+                                        <p>請問我們輸的是什麼系（黑人攻擊好恐怖 哭哭）提示：XXXX系</p>
+                                        <input type="text" id="answer" class="form-control round" placeholder="答不出來不怪你 但...你得答出來٩(●˙▿˙●)۶…⋆ฺ">
                                         <button id='submit' class="btn btn-outline-danger rounded-pill mt-3">Submit</button>
                                     </div>
                                 </div>
@@ -173,10 +158,10 @@
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p>錯宗複雜又軒鬧ㄉ解謎我們培你1淇</p>
+                        <p>可口麥香瑜培你過七夕</p>
                     </div>
                     <div class="float-end">
-                        <p>by tnecniv8040, peiyuuuuu_0414, tzonghann_0429</p>
+                        <p>by peiyuuuuu_0414</p>
                     </div>
                 </div>
             </footer>
@@ -192,19 +177,32 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js "></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js "></script>
     <script>
+
         // Your web app's Firebase configuration
+      
         var firebaseConfig = {
-            apiKey: "AIzaSyBk2TAU3PLY_VWGLh8GJaT4XjdcR6iiXho",
-            authDomain: "lianglianghbd.firebaseapp.com",
-            databaseURL: "https://lianglianghbd-default-rtdb.firebaseio.com",
-            projectId: "lianglianghbd",
-            storageBucket: "lianglianghbd.appspot.com",
-            messagingSenderId: "419386418394",
-            appId: "1:419386418394:web:0333b66483829c5d7db1e3"
+      
+          apiKey: "AIzaSyBOy2lTVtqx8-Y8YBTF1a-0fwMMAuDBNRw",
+      
+          authDomain: "mike-10e44.firebaseapp.com",
+      
+          databaseURL: "https://mike-10e44-default-rtdb.firebaseio.com",
+      
+          projectId: "mike-10e44",
+      
+          storageBucket: "mike-10e44.appspot.com",
+      
+          messagingSenderId: "387495234515",
+      
+          appId: "1:387495234515:web:ada60fb0bf5196e69b3d26"
+      
         };
+      
         // Initialize Firebase
+      
         firebase.initializeApp(firebaseConfig);
-    </script>
+      
+      </script>
     <script src="assets/js/q5.js"></script>
 </body>
 
