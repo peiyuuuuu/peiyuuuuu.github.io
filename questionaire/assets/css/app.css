@@ -21,7 +21,6 @@ a.button {
     border-radius: 2em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #FFFFFF;
     background-color: #25396f;
@@ -31,16 +30,13 @@ a.button {
     width: 35%;
 }
 
-a.button:hover {
-    background-color: #4095c6;
-}
 
-@media all and (max-width:30em) {
+/* @media all and (max-width:30em) {
     a.button {
         display: block;
         margin: 0.2em auto;
     }
-}
+} */
 
 .blackscreen {
     position: fixed;
