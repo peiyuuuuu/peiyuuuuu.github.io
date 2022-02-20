@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>可口麥香瑜培你過七夕</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/pages/auth.css">
+</head>
+
+<body>
+    <div id="auth">
+
+        <div class="row h-100">
+            <div class="col-lg-5 col-12">
+                <div id="auth-left">
+
+                    <h1 class="auth-title">可口麥香瑜培你過七夕</h1>
+                    <p class="auth-subtitle mb-5">培瑜說這張很可愛</p>
+
+
+                    <div class="form-group position-relative has-icon-left mb-4">
+                        <input id='studentid' type="text" class="form-control form-control-xl" placeholder="妳的學號~">
+                        <div class="form-control-icon">
+                            <i class="bi bi-person"></i>
+                        </div>
+                    </div>
+                    <div class="form-group position-relative has-icon-left mb-4">
+                        <input id='bd' type="text" class="form-control form-control-xl" placeholder="妳的生日~培瑜的是880414">
+                        <div class="form-control-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                    </div>
+                    <button id='loginbt' class="btn btn-primary btn-block btn-lg  ">Log in</button>
+
+                    <p id='status' class="auth-subtitle mt-4 " style="color: red; text-align: center;"></p>
+
+
+                </div>
+            </div>
+            <div class="col-lg-7 d-none d-lg-block">
+                <div id="auth-right">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    document.getElementById('loginbt').onclick = function() {
+        var studentid = document.getElementById('studentid')
+        var bd = document.getElementById('bd')
+        var status = document.getElementById('status')
+
+        if (studentid.value.toLowerCase() === 'b06703128' && bd.value === '880620') {
+            window.location.href = './qhome.html'
+        } else {
+            status.textContent = '有錯欸妳是誰 (◜◔。◔◝)'
+        }
+    }
+</script>
