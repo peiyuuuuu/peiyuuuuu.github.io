@@ -8,6 +8,12 @@ body {
     border: none
 }
 
+input {
+    margin: .4rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
 .blackscreen {
     position: fixed;
     width: 100%;
