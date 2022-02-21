@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
 body {
     font-family: 'Noto Sans TC', serif;
     /* font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體", sans-serif; */
@@ -49,9 +50,11 @@ a.button {
     .fsChange {
         font-size: 1.5rem;
     }
+
     .card .card-header h4 {
         font-size: 1.5rem;
     }
+
     .page-heading h3 {
         font-size: 1.8rem;
     }
@@ -61,7 +64,7 @@ a.button {
     align-items: center;
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: auto;
     grid-template-rows: auto;
     justify-items: center;
     padding: 2rem;
@@ -92,7 +95,7 @@ a.button {
     display: grid;
     grid-column: 1;
     grid-row: 1;
-    grid-template-areas: "one two three" "four five six" "seven eight nine";
+    grid-template-areas: "one two three""four five six""seven eight nine";
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 125%;
@@ -482,7 +485,7 @@ button {
 }
 
 .btn .badge.bg-transparent {
-    background-color: hsla(0, 0%, 100%, .25)!important;
+    background-color: hsla(0, 0%, 100%, .25) !important;
     color: #fff
 }
 
@@ -683,7 +686,7 @@ button {
 }
 
 .pricing .card-header .card-title {
-    font-size: 2rem!important;
+    font-size: 2rem !important;
     margin-bottom: 0
 }
 
@@ -1332,6 +1335,7 @@ button {
         position: absolute;
         left: -300px
     }
+
     .sidebar-wrapper .sidebar-toggler.x {
         display: block
     }
@@ -1504,7 +1508,7 @@ button {
 
 .dataTable-table:not(.table-borderless) thead th,
 .table:not(.table-borderless) thead th {
-    border-bottom: 1px solid #dedede!important
+    border-bottom: 1px solid #dedede !important
 }
 
 .table-md.dataTable-table tr td,
@@ -1749,8 +1753,8 @@ a {
 }
 
 .py-4-5 {
-    padding-top: 2rem!important;
-    padding-bottom: 2rem!important
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important
 }
 
 .text-sm {
@@ -1824,19 +1828,19 @@ a {
 }
 
 .text-gray-300 {
-    color: #dee2e6!important
+    color: #dee2e6 !important
 }
 
 .text-gray-400 {
-    color: #ced4da!important
+    color: #ced4da !important
 }
 
 .text-gray-500 {
-    color: #adb5bd!important
+    color: #adb5bd !important
 }
 
 .text-gray-600 {
-    color: #6c757d!important
+    color: #6c757d !important
 }
 
 .btn-xl {
