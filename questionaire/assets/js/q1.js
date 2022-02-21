@@ -6,7 +6,7 @@ function calScore() {
             qRadio = document.getElementById('q' + i.toString()).querySelector('input:checked').value;
 
         } catch {
-            alert('做完好嗎');
+            alert('要每題都做完才能算分喔><');
             return;
         }
         sum += parseInt(qRadio);
