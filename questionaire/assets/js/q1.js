@@ -14,4 +14,4 @@ function calScore() {
     }
     alert('你的分數： ' + sum + '分');
 }
-document.getElementById('submit').onclick = calScore
+document.getElementById('submit').onclick = calScore;
