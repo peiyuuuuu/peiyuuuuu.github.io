@@ -30,14 +30,6 @@ a.button {
     width: 35%;
 }
 
-
-/* @media all and (max-width:30em) {
-    a.button {
-        display: block;
-        margin: 0.2em auto;
-    }
-} */
-
 .blackscreen {
     position: fixed;
     width: 100%;
@@ -1001,6 +993,15 @@ a.button {
     margin-top: 2rem;
     padding: 0 2rem;
     font-weight: 600
+}
+
+@media (max-width:900px) {
+    .fsChange {
+        font-size: 2rem;
+    }
+    .card .card-header h4 {
+        font-size: 2rem;
+    }
 }
 
 .sidebar-wrapper .menu .sidebar-title {
