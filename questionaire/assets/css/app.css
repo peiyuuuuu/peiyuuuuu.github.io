@@ -40,6 +40,23 @@ a.button {
     z-index: 10;
 }
 
+.card .card-header h4 {
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+@media (max-width:900px) {
+    .fsChange {
+        font-size: 1.5rem;
+    }
+    .card .card-header h4 {
+        font-size: 1.5rem;
+    }
+    .page-heading h3 {
+        font-size: 1.8rem;
+    }
+}
+
 .alert p {
     margin-bottom: 0
 }
@@ -390,11 +407,6 @@ a.button {
 
 .card .card-header {
     border: none
-}
-
-.card .card-header h4 {
-    font-size: 1.2rem;
-    font-weight: 700
 }
 
 .card .card-header~.card-body {
@@ -993,15 +1005,6 @@ a.button {
     margin-top: 2rem;
     padding: 0 2rem;
     font-weight: 600
-}
-
-@media (max-width:900px) {
-    .fsChange {
-        font-size: 2rem;
-    }
-    .card .card-header h4 {
-        font-size: 2rem;
-    }
 }
 
 .sidebar-wrapper .menu .sidebar-title {
