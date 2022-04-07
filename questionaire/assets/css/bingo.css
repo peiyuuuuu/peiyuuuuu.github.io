@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+h1 {
+    background-color: #777;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 560px;
+
+}
+
+#card * {
+    box-sizing: initial;
+}
+
+h1 {
+    margin-top: 10px;
+    font: 30px roboto;
+    text-align: center;
+    color: #FFF;
+}
+
+#card {
+    position: absolute;
+    margin: 0 auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: center;
+    color: #FFF;
+}
+
+#card td {
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    background: #777;
+    font: 14px arial;
+    cursor: pointer;
+}
+
+#card td:hover {
+    -moz-box-shadow: inset 0 0 35px #BBB;
+    -webkit-box-shadow: inset 0 0 35px #BBB;
+    box-shadow: inset 0 0 35px #BBB;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#card .dabbedRed {
+    background: #FF0000;
+}
+
+#card .dabbedBlue {
+    background: #0000FF;
+}
+
+#card .dabbedYellow {
+    background: #E6E607;
+}
+
+#card .dabbedGreen {
+    background: #008000;
+}
+
+#card .dabbedPurple {
+    background: #800080;
+}
+
+#card .dabbedOrange {
+    background: #FFA500;
+}
+
+#card .dabbedBlack {
+    background: #000000;
+}
+
+#menu {
+    position: relative;
+    left: 560px;
+    width: 100px;
+    height: 540px;
+    margin-top: 16.5px;
+}
+
+#menu #scoreboard {
+    height: 200px;
+    width: 100px;
+    background: rgba(34, 34, 34, 0.6);
+    font: 12px roboto;
+    text-align: center;
+    color: #FFF;
+}
+
+#menu #scoreboard .title {
+    padding-top: 9px;
+    letter-spacing: 1px;
+}
+
+#menu #scoreboard .score {
+    font-size: 30px;
+}
+
+#menu .cardFunction {
+    margin-top: 10px;
+    height: 45px;
+    width: 100px;
+    background: rgba(34, 34, 34, 0.6);
+    font: 12px/45px roboto;
+    color: #FFF;
+    padding: 0 0;
+}
+
+#menu .cardFunction:hover {
+    background: #222222;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#menu #palette {
+    margin-top: 10px;
+    height: 220px;
+    background: rgba(34, 34, 34, 0.6);
+    font: 12px/28px roboto;
+    text-align: center;
+    color: white;
+}
+
+#menu #palette .dabSelect {
+    float: left;
+    border-radius: 24px;
+    margin: 0 0 4px 4px;
+    height: 44px;
+    width: 44px;
+    vertical-align: top;
+}
+
+#menu #palette .dabSelect:hover {
+    border: 3px solid #FFF;
+}
+
+#menu #palette #dabRed {
+    background: #FF0000;
+}
+
+#menu #palette #dabBlue {
+    background: #0000FF;
+}
+
+#menu #palette #dabYellow {
+    background: #E6E607;
+}
+
+#menu #palette #dabGreen {
+    background: #008000;
+}
+
+#menu #palette #dabPurple {
+    background: #800080;
+}
+
+#menu #palette #dabOrange {
+    background: #FFA500;
+}
+
+#menu #palette #dabBlack {
+    background: #000000;
+}
+
+#menu #palette #dabRandom {
+    background: #FFFFFF;
+    font: 20px roboto;
+}
+
+#menu #palette .dabActive {
+    border: 3px solid #AAA;
+}
+
+#credit {
+    margin-top: 10px;
+    width: 100%;
+    font: 12px roboto;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px #888;
+    text-align: center;
+}
+
+#credit a {
+    text-decoration: none;
+    color: #111;
+}
+
+#credit a:hover {
+    text-shadow: 1px 1px #888;
+}
