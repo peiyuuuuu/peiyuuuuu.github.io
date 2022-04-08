@@ -1,31 +1,31 @@
 $(document).ready(function () {
     // Array containing all of the potential square content and their descriptions, separated by "::".
     var squares = [
-        "01::Filler content for testing purposes",
-        "02::Filler content for testing purposes",
-        "03::Filler content for testing purposes",
-        "04::Filler content for testing purposes",
-        "05::Filler content for testing purposes",
-        "06::Filler content for testing purposes",
-        "07::Filler content for testing purposes",
-        "08::Filler content for testing purposes",
-        "09::Filler content for testing purposes",
-        "10::Filler content for testing purposes",
-        "11::Filler content for testing purposes",
-        "12::Filler content for testing purposes",
-        "13::Filler content for testing purposes",
-        "14::Filler content for testing purposes",
-        "15::Filler content for testing purposes",
-        "16::Filler content for testing purposes",
-        "17::Filler content for testing purposes",
-        "18::Filler content for testing purposes",
-        "19::Filler content for testing purposes",
-        "20::Filler content for testing purposes",
-        "21::Filler content for testing purposes",
-        "22::Filler content for testing purposes",
-        "23::Filler content for testing purposes",
-        "24::Filler content for testing purposes",
-        "25::Filler content for testing purposes"
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
     ];
     var randomDab = ['dabbedRed', 'dabbedBlue', 'dabbedYellow', 'dabbedGreen', 'dabbedPurple', 'dabbedOrange', 'dabbedBlack'];
     var isDabbed = ['cell12'];
@@ -55,9 +55,11 @@ $(document).ready(function () {
         cleanCard();
         shuffle(squares);
         for (i = 0; i < 25; i++) {
-            var squareName = squares[i].substr(0, squares[i].indexOf("::"));
-            var squareDesc = squares[i].substr(squares[i].indexOf("::") + 2, squares[i].length);
-            $('#cell' + i).html(squareName).attr('title', squareDesc);
+            var squareName = squares[i];
+            $('#cell' + i).html(squareName)
+            // var squareName = squares[i].substr(0, squares[i].indexOf("::"));
+            // var squareDesc = squares[i].substr(squares[i].indexOf("::") + 2, squares[i].length);
+            // $('#cell' + i).html(squareName).attr('title', squareDesc);
         }
     }
     // Function to give the customary free center dab

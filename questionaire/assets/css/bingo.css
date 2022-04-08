@@ -18,7 +18,7 @@ h1 {
 }
 
 #wrapper {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 560px;
 
 }
@@ -41,6 +41,12 @@ h1 {
     border-collapse: separate;
     text-align: center;
     color: #FFF;
+}
+
+@media (max-width:960px) {
+    #card {
+        width: 560px;
+    }
 }
 
 #card td {
@@ -96,6 +102,7 @@ h1 {
     width: 100px;
     height: 540px;
     margin-top: 16.5px;
+    padding-top: 10px;
 }
 
 #menu #scoreboard {
