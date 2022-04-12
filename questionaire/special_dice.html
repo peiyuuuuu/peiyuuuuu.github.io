@@ -24,7 +24,7 @@
 
     <div id="app">
         <div id="sidebar" class='active'>
-            <div class="sidebar-wrapper active">
+            <div class="sidebar-wrapper">
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-between">
                         <div class="logo">
@@ -41,12 +41,15 @@
                     <ul class="menu">
                         <li class='sidebar-title'>Menu</li>
 
-                        <li id='q1' class="sidebar-item">
+                        <li class="sidebar-item">
                             <a href="./questions.html" class='sidebar-link'>
                                 <span>Questionaire</span>
                             </a>
                             <a href="./normal_dice.html" class='sidebar-link'>
                                 <span>Normal Dice</span>
+                            </a>
+                            <a href="./bingo.html" class='sidebar-link'>
+                                <span>Bingo</span>
                             </a>
                         </li>
 
@@ -66,10 +69,9 @@
             </header>
 
 
-            <div class="dice">
+            <div class="dice" style=" position:relative; left: -48px;">
                 <ol class="die-list odd-roll" data-roll="1" id="die-2">
                     <li class="die-item" data-side="1">
-                        <span class="dot"></span>
                     </li>
                     <li class="die-item" data-side="2">
                         <span class="dot"></span>
@@ -80,7 +82,6 @@
                         <span class="dot"></span>
                     </li>
                     <li class="die-item" data-side="3">
-                        <span class="dot"></span>
                     </li>
                     <li class="die-item" data-side="4">
                         <span class="dot"></span>
@@ -91,7 +92,6 @@
                         <span class="dot"></span>
                     </li>
                     <li class="die-item" data-side="5">
-                        <span class="dot"></span>
                     </li>
                     <li class="die-item" data-side="6">
                         <span class="dot"></span>
@@ -103,7 +103,8 @@
                     </li>
                 </ol>
             </div>
-            <button class="button" type="button" id="roll-button" style="margin: auto; display: block; margin-top: 6rem;">Roll Dice</button>
+            <button class="button" type="button" id="roll-button"
+                style="margin: auto; display: block; margin-top: 6rem;">Roll Dice</button>
 
         </div>
     </div>

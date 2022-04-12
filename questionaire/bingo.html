@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>風險偏好！！！</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/vendors/iconly/bold.css">
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bingo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id='bs' class="blackscreen" style="visibility: hidden; z-index: 999;">
+        <img style=" position: fixed; top: 50%; left: 50%; width: 40%; transform:translate(-50%, -50%) ;">
+    </div>
+
+    <div id="app">
+        <div id="sidebar" class='active'>
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <div class="d-flex justify-content-between">
+                        <div class="logo">
+                            <a><img src="assets/images/mainlogo.png" alt="Logo" srcset=""></a>
+                        </div>
+                        <div class="toggler">
+                            <a href="#" class='sidebar-hide d-xl-none d-block'><i class='bi bi-x bi-middle'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+            </div>
+        </div>
+        <div id="main">
+            <header class='mb-3'>
+                <a href="#" class='burger-btn d-block d-xl-none'>
+                    <i class='bi bi-justify fs-3'></i>
+                </a>
+            </header>
+
+
+            <div id="wrapper">
+                <table id="card">
+                    <tr>
+                        <td id="cell0"></td>
+                        <td id="cell1"></td>
+                        <td id="cell2"></td>
+                        <td id="cell3"></td>
+                        <td id="cell4"></td>
+                    </tr>
+                    <tr>
+                        <td id="cell5"></td>
+                        <td id="cell6"></td>
+                        <td id="cell7"></td>
+                        <td id="cell8"></td>
+                        <td id="cell9"></td>
+                    </tr>
+                    <tr>
+                        <td id="cell10"></td>
+                        <td id="cell11"></td>
+                        <td id="cell12"></td>
+                        <td id="cell13"></td>
+                        <td id="cell14"></td>
+                    </tr>
+                    <tr>
+                        <td id="cell15"></td>
+                        <td id="cell16"></td>
+                        <td id="cell17"></td>
+                        <td id="cell18"></td>
+                        <td id="cell19"></td>
+                    </tr>
+                    <tr>
+                        <td id="cell20"></td>
+                        <td id="cell21"></td>
+                        <td id="cell22"></td>
+                        <td id="cell23"></td>
+                        <td id="cell24"></td>
+                    </tr>
+                </table>
+                <div id="menu">
+                    <div id="scoreboard">
+                        <p class="title">ROWS</p>
+                        <p class="score"><span id="scoreRow">0</span>/5</p>
+                        <p class="title">COLUMNS</p>
+                        <p class="score"><span id="scoreCol">0</span>/5</p>
+                        <p class="title">DIAGONALS</p>
+                        <p class="score"><span id="scoreDiag">0</span>/2</p>
+                    </div>
+                    <button class="cardFunction" id="newCard">NEW CARD</button>
+                    <button class="cardFunction" id="cleanCard">CLEAR</button>
+                    <div id="palette">
+                        <p>COLOR</p>
+                        <button class="dabSelect" id="dabRed"></button>
+                        <button class="dabSelect" id="dabBlue"></button>
+                        <button class="dabSelect" id="dabYellow"></button>
+                        <button class="dabSelect" id="dabGreen"></button>
+                        <button class="dabSelect" id="dabPurple"></button>
+                        <button class="dabSelect" id="dabOrange"></button>
+                        <button class="dabSelect" id="dabBlack"></button>
+                        <button class="dabSelect" id="dabRandom">?</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/pages/dashboard.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bingo.js"></script>
+
+</body>
+
+</html>
