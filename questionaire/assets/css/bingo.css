@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ h1 {
 #wrapper {
     /* margin: 0 auto; */
     width: 560px;
-
 }
 
 #card * {
@@ -54,7 +52,7 @@ h1 {
     height: 80px;
     width: 80px;
     background: #777;
-    font: 14px arial;
+    font: 30px arial;
     cursor: pointer;
 }
 
